@@ -27,6 +27,6 @@ load("@io_bazel_rules_scala//scala:scala.bzl", "scala_library", "scala_binary", 
 scala_binary(
     name = "HelloScala",
     srcs = glob(["src/main/scala/bazeltest1/*.scala"]),
-    # deps = ["@com_google_guava_guava//jar"],
+    deps = ["@com_google_guava_guava//jar"],
     main_class = "bazeltest1.HelloScala"
 )
