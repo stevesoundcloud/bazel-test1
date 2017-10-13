@@ -7,6 +7,24 @@ maven_jar(
     server = "maven_uk_server",
 )
 
+maven_jar(
+    name = "org_typelevel_cats_kernel",
+    artifact = "org.typelevel:cats-kernel_2.12:0.9.0",
+    server = "maven_uk_server",
+)
+
+maven_jar(
+    name = "org_typelevel_algebra",
+    artifact = "org.typelevel:algebra_2.12:0.7.0",
+    server = "maven_uk_server",
+)
+
+maven_jar(
+    name = "com_twitter_algebird_core",
+    artifact = "com.twitter:algebird-core_2.12:0.13.3",
+    server = "maven_uk_server",
+)
+
 maven_server(
     name = "maven_uk_server",
     url = "http://uk.maven.org/maven2",

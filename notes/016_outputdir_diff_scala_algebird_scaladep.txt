@@ -1,0 +1,174 @@
+find -L /private/var/tmp/_bazel_steveconover > /tmp/bazel_tmp_find_output_6
+diff /tmp/bazel_tmp_find_output_5 /tmp/bazel_tmp_find_output_6
+
+8954d8953
+< /private/var/tmp/_bazel_steveconover/52f534d57317cb5b3eb47c182fc5e4d9/java.log.lck
+8960d8958
+< /private/var/tmp/_bazel_steveconover/52f534d57317cb5b3eb47c182fc5e4d9/server/command_port
+8962,8964d8959
+< /private/var/tmp/_bazel_steveconover/52f534d57317cb5b3eb47c182fc5e4d9/server/request_cookie
+< /private/var/tmp/_bazel_steveconover/52f534d57317cb5b3eb47c182fc5e4d9/server/response_cookie
+< /private/var/tmp/_bazel_steveconover/52f534d57317cb5b3eb47c182fc5e4d9/server/server.pid.txt
+8972a8968,8973
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-11-Javac.log
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-12-Javac.log
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-13-Javac.log
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-14-Javac.log
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-15-Javac.log
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-16-Javac.log
+9035a9037,9038
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/1d
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/1d/6384ffee71489801f9c1ea48c1985dacc447d8
+9047a9051,9052
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/45
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/45/73e5fdb5248ed17b6c4333e8867babe21e8f31
+9049a9055,9056
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/54
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/54/e4877a50abb7074f6c6456e5a13c2a99dce5be
+9055a9063
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/6a/26ca64097fce09a9578dcc7fbb5d7d936be240
+9057a9066,9067
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/70
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/70/e637c4c95753523956733eeb40d279cac3bb60
+9068a9079,9081
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/8a
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/8a/1e55f4f8184bbc1ebf00755ad5dbe12d583a6f
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/8a/79e2ac0a28a3c98afc15d701a5390ba920191b
+9070a9084
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/8c/8e9c4283bb15e6a1c37e946dc07f12be02fb56
+9074a9089,9090
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/96
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/96/6afcd4e3eccaa6f928705afb1b2af5a3f51b54
+9094a9111,9112
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/b2
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/b2/7a76778381ab2fe37701c25a24ff294c3c854e
+9108a9127,9128
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/d2
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/d2/96c889f509f96bc2ee0e6eb9d0910135fe7160
+9123a9144,9145
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/ec
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/ec/f6823173e31d9d2d5946eccd126eefae981c55
+9152,9153d9173
+< /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/_tmp/action_outs/stderr-6
+< /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/_tmp/action_outs/stdout-6
+9163a9184,9186
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+9391a9415,9420
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+9401a9431,9433
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+9630a9663,9668
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+9648a9687,9710
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3-ijar.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0-ijar.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0-ijar.jar
+11026a11089,11093
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_twitter_algebird_core
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_twitter_algebird_core/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_twitter_algebird_core/jar/BUILD.bazel
+12046a12114,12123
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_algebra
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_algebra/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_algebra/jar/BUILD.bazel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_cats_kernel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_cats_kernel/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_cats_kernel/jar/BUILD.bazel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+12125a12203,12206
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/notes/013_outputdir_diff_scala_plus_guava.txt
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/notes/014_project_dir_diff_scala_plus_guava.txt
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/notes/015_scala_guava_bazel_run.txt
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/notes/018_scala_algebird_scaladep_bazel_run.txt
+12140a12222
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/@com_twitter_algebird_core.marker
+12145a12228,12229
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/@org_typelevel_algebra.marker
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/@org_typelevel_cats_kernel.marker
+12880a12965,12979
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter/algebird-core_2.12
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter/algebird-core_2.12/0.13.3
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter/algebird-core_2.12/0.13.3/_remote.repositories
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter/algebird-core_2.12/0.13.3/algebird-core_2.12-0.13.3-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter/algebird-core_2.12/0.13.3/algebird-core_2.12-0.13.3-sources.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter/algebird-core_2.12/0.13.3/algebird-core_2.12-0.13.3.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/com/twitter/algebird-core_2.12/0.13.3/algebird-core_2.12-0.13.3.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/jar/BUILD.bazel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_twitter_algebird_core/WORKSPACE
+14124a14224,14253
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/jar/BUILD.bazel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel/algebra_2.12
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel/algebra_2.12/0.7.0
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel/algebra_2.12/0.7.0/_remote.repositories
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel/algebra_2.12/0.7.0/algebra_2.12-0.7.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel/algebra_2.12/0.7.0/algebra_2.12-0.7.0-sources.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel/algebra_2.12/0.7.0/algebra_2.12-0.7.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/org/typelevel/algebra_2.12/0.7.0/algebra_2.12-0.7.0.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_algebra/WORKSPACE
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/jar/BUILD.bazel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel/cats-kernel_2.12
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel/cats-kernel_2.12/0.9.0
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel/cats-kernel_2.12/0.9.0/_remote.repositories
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/org_typelevel_cats_kernel/WORKSPACE

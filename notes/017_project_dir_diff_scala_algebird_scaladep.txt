@@ -1,0 +1,241 @@
+find -L . > /tmp/bazel_project_find_output_6
+diff /tmp/bazel_project_find_output_5 /tmp/bazel_project_find_output_6
+
+52a53,54
+> ./.git/objects/1d
+> ./.git/objects/1d/6384ffee71489801f9c1ea48c1985dacc447d8
+64a67,68
+> ./.git/objects/45
+> ./.git/objects/45/73e5fdb5248ed17b6c4333e8867babe21e8f31
+66a71,72
+> ./.git/objects/54
+> ./.git/objects/54/e4877a50abb7074f6c6456e5a13c2a99dce5be
+72a79
+> ./.git/objects/6a/26ca64097fce09a9578dcc7fbb5d7d936be240
+74a82,83
+> ./.git/objects/70
+> ./.git/objects/70/e637c4c95753523956733eeb40d279cac3bb60
+85a95,97
+> ./.git/objects/8a
+> ./.git/objects/8a/1e55f4f8184bbc1ebf00755ad5dbe12d583a6f
+> ./.git/objects/8a/79e2ac0a28a3c98afc15d701a5390ba920191b
+87a100
+> ./.git/objects/8c/8e9c4283bb15e6a1c37e946dc07f12be02fb56
+91a105,106
+> ./.git/objects/96
+> ./.git/objects/96/6afcd4e3eccaa6f928705afb1b2af5a3f51b54
+111a127,128
+> ./.git/objects/b2
+> ./.git/objects/b2/7a76778381ab2fe37701c25a24ff294c3c854e
+125a143,144
+> ./.git/objects/d2
+> ./.git/objects/d2/96c889f509f96bc2ee0e6eb9d0910135fe7160
+140a160,161
+> ./.git/objects/ec
+> ./.git/objects/ec/f6823173e31d9d2d5946eccd126eefae981c55
+206a228,229
+> ./bazel-bazel-test1/.git/objects/1d
+> ./bazel-bazel-test1/.git/objects/1d/6384ffee71489801f9c1ea48c1985dacc447d8
+218a242,243
+> ./bazel-bazel-test1/.git/objects/45
+> ./bazel-bazel-test1/.git/objects/45/73e5fdb5248ed17b6c4333e8867babe21e8f31
+220a246,247
+> ./bazel-bazel-test1/.git/objects/54
+> ./bazel-bazel-test1/.git/objects/54/e4877a50abb7074f6c6456e5a13c2a99dce5be
+226a254
+> ./bazel-bazel-test1/.git/objects/6a/26ca64097fce09a9578dcc7fbb5d7d936be240
+228a257,258
+> ./bazel-bazel-test1/.git/objects/70
+> ./bazel-bazel-test1/.git/objects/70/e637c4c95753523956733eeb40d279cac3bb60
+239a270,272
+> ./bazel-bazel-test1/.git/objects/8a
+> ./bazel-bazel-test1/.git/objects/8a/1e55f4f8184bbc1ebf00755ad5dbe12d583a6f
+> ./bazel-bazel-test1/.git/objects/8a/79e2ac0a28a3c98afc15d701a5390ba920191b
+241a275
+> ./bazel-bazel-test1/.git/objects/8c/8e9c4283bb15e6a1c37e946dc07f12be02fb56
+245a280,281
+> ./bazel-bazel-test1/.git/objects/96
+> ./bazel-bazel-test1/.git/objects/96/6afcd4e3eccaa6f928705afb1b2af5a3f51b54
+265a302,303
+> ./bazel-bazel-test1/.git/objects/b2
+> ./bazel-bazel-test1/.git/objects/b2/7a76778381ab2fe37701c25a24ff294c3c854e
+279a318,319
+> ./bazel-bazel-test1/.git/objects/d2
+> ./bazel-bazel-test1/.git/objects/d2/96c889f509f96bc2ee0e6eb9d0910135fe7160
+294a335,336
+> ./bazel-bazel-test1/.git/objects/ec
+> ./bazel-bazel-test1/.git/objects/ec/f6823173e31d9d2d5946eccd126eefae981c55
+323,324d364
+< ./bazel-bazel-test1/bazel-out/_tmp/action_outs/stderr-6
+< ./bazel-bazel-test1/bazel-out/_tmp/action_outs/stdout-6
+334a375,377
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+562a606,611
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+572a622,624
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+801a854,859
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+819a878,901
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3-ijar.jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0-ijar.jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0-ijar.jar
+2197a2280,2284
+> ./bazel-bazel-test1/external/com_twitter_algebird_core
+> ./bazel-bazel-test1/external/com_twitter_algebird_core/jar
+> ./bazel-bazel-test1/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3-sources.jar
+> ./bazel-bazel-test1/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+> ./bazel-bazel-test1/external/com_twitter_algebird_core/jar/BUILD.bazel
+3217a3305,3314
+> ./bazel-bazel-test1/external/org_typelevel_algebra
+> ./bazel-bazel-test1/external/org_typelevel_algebra/jar
+> ./bazel-bazel-test1/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0-sources.jar
+> ./bazel-bazel-test1/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> ./bazel-bazel-test1/external/org_typelevel_algebra/jar/BUILD.bazel
+> ./bazel-bazel-test1/external/org_typelevel_cats_kernel
+> ./bazel-bazel-test1/external/org_typelevel_cats_kernel/jar
+> ./bazel-bazel-test1/external/org_typelevel_cats_kernel/jar/BUILD.bazel
+> ./bazel-bazel-test1/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0-sources.jar
+> ./bazel-bazel-test1/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+3296a3394,3397
+> ./bazel-bazel-test1/notes/013_outputdir_diff_scala_plus_guava.txt
+> ./bazel-bazel-test1/notes/014_project_dir_diff_scala_plus_guava.txt
+> ./bazel-bazel-test1/notes/015_scala_guava_bazel_run.txt
+> ./bazel-bazel-test1/notes/018_scala_algebird_scaladep_bazel_run.txt
+3317a3419,3421
+> ./bazel-bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core
+> ./bazel-bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar
+> ./bazel-bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+3545a3650,3655
+> ./bazel-bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra
+> ./bazel-bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar
+> ./bazel-bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> ./bazel-bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel
+> ./bazel-bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar
+> ./bazel-bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+3555a3666,3668
+> ./bazel-bin/HelloScala.runfiles/com_twitter_algebird_core
+> ./bazel-bin/HelloScala.runfiles/com_twitter_algebird_core/jar
+> ./bazel-bin/HelloScala.runfiles/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+3784a3898,3903
+> ./bazel-bin/HelloScala.runfiles/org_typelevel_algebra
+> ./bazel-bin/HelloScala.runfiles/org_typelevel_algebra/jar
+> ./bazel-bin/HelloScala.runfiles/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> ./bazel-bin/HelloScala.runfiles/org_typelevel_cats_kernel
+> ./bazel-bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar
+> ./bazel-bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+3802a3922,3945
+> ./bazel-genfiles/external/com_twitter_algebird_core
+> ./bazel-genfiles/external/com_twitter_algebird_core/jar
+> ./bazel-genfiles/external/com_twitter_algebird_core/jar/_ijar
+> ./bazel-genfiles/external/com_twitter_algebird_core/jar/_ijar/jar
+> ./bazel-genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external
+> ./bazel-genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core
+> ./bazel-genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar
+> ./bazel-genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3-ijar.jar
+> ./bazel-genfiles/external/org_typelevel_algebra
+> ./bazel-genfiles/external/org_typelevel_algebra/jar
+> ./bazel-genfiles/external/org_typelevel_algebra/jar/_ijar
+> ./bazel-genfiles/external/org_typelevel_algebra/jar/_ijar/jar
+> ./bazel-genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external
+> ./bazel-genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra
+> ./bazel-genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar
+> ./bazel-genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0-ijar.jar
+> ./bazel-genfiles/external/org_typelevel_cats_kernel
+> ./bazel-genfiles/external/org_typelevel_cats_kernel/jar
+> ./bazel-genfiles/external/org_typelevel_cats_kernel/jar/_ijar
+> ./bazel-genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar
+> ./bazel-genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external
+> ./bazel-genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel
+> ./bazel-genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar
+> ./bazel-genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0-ijar.jar
+3818,3819d3960
+< ./bazel-out/_tmp/action_outs/stderr-6
+< ./bazel-out/_tmp/action_outs/stdout-6
+3829a3971,3973
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+4057a4202,4207
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/__main__/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+4067a4218,4220
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3.jar
+4296a4450,4455
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_algebra/jar/algebra_2.12-0.7.0.jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/HelloScala.runfiles/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0.jar
+4314a4474,4497
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_twitter_algebird_core/jar/_ijar/jar/external/com_twitter_algebird_core/jar/algebird-core_2.12-0.13.3-ijar.jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_algebra/jar/_ijar/jar/external/org_typelevel_algebra/jar/algebra_2.12-0.7.0-ijar.jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/org_typelevel_cats_kernel/jar/_ijar/jar/external/org_typelevel_cats_kernel/jar/cats-kernel_2.12-0.9.0-ijar.jar
+4984a5168,5171
+> ./notes/013_outputdir_diff_scala_plus_guava.txt
+> ./notes/014_project_dir_diff_scala_plus_guava.txt
+> ./notes/015_scala_guava_bazel_run.txt
+> ./notes/018_scala_algebird_scaladep_bazel_run.txt
