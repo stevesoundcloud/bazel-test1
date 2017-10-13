@@ -14,7 +14,14 @@ genrule(
   cmd = "echo Hello World 2 > $@",
 )
 
+# java_library(
+#     name = "hello-lib",
+#     srcs = glob(["src/main/java/bazeltest1/*.java"]),
+#     deps = ["@com_google_guava_guava//jar"],
+# )
+
 java_binary(
     name = "Hello",
     srcs = glob(["src/main/java/bazeltest1/*.java"]),
+    deps = ["@com_google_guava_guava//jar"],
 )

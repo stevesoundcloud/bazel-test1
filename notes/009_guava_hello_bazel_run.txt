@@ -1,0 +1,24 @@
+sconover-m01:bazel-test1 steveconover$ bazel clean
+INFO: Starting clean (this may take a while). Consider using --async if the clean takes more than several minutes.
+sconover-m01:bazel-test1 steveconover$ bazel build //:Hello
+INFO: Found 1 target...
+Target //:Hello up-to-date:
+  bazel-bin/Hello.jar
+  bazel-bin/Hello
+INFO: Elapsed time: 5.836s, Critical Path: 1.37s
+sconover-m01:bazel-test1 steveconover$ bazel build //:Hello
+INFO: Found 1 target...
+Target //:Hello up-to-date:
+  bazel-bin/Hello.jar
+  bazel-bin/Hello
+INFO: Elapsed time: 0.145s, Critical Path: 0.00s
+sconover-m01:bazel-test1 steveconover$ bazel-bin/Hello
+HelloHelloHello
+sconover-m01:bazel-test1 steveconover$ bazel build //:Hello
+INFO: Found 1 target...
+Target //:Hello up-to-date:
+  bazel-bin/Hello.jar
+  bazel-bin/Hello
+INFO: Elapsed time: 0.305s, Critical Path: 0.18s
+sconover-m01:bazel-test1 steveconover$ bazel-bin/Hello
+Hello2Hello2Hello2

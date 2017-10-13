@@ -1,0 +1,109 @@
+find -L /private/var/tmp/_bazel_steveconover > /tmp/bazel_tmp_find_output_3
+diff /tmp/bazel_tmp_find_output_2 /tmp/bazel_tmp_find_output_3
+
+8971a8972,8973
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-2-Javac.log
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/bazel-workers/worker-3-Javac.log
+9006a9009
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/06/6999ad2574cb3ac0910bfc92fe4cf0cb089c3d
+9007a9011,9012
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/07
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/07/b3c6526cd59bb00d19b094ede7fc79835aeee6
+9009a9015,9016
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/0d
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/0d/5896e991b9e702138283a15e083a2bf3bc3b62
+9011a9019,9022
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/12
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/12/45b9a78d4c7234ea600271581f0ba413daf6eb
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/17
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/17/af8b548eafa487ed4bfb309c474be2eb66b09e
+9017a9029,9032
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/84
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/84/4a7ec0052014af7de18fabc87065512ed34aeb
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/90
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/90/4ffc3940d075aee3412241d85f5765bf1b0e99
+9021a9037,9040
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/9f
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/9f/73e1cca90ca4fd68a983ccda730eb0620d5d3f
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/a0
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/a0/174bb53299c90d252b2f51e94dbccdb66e69fd
+9023a9043,9046
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/a2
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/a2/4523bf21c802e1d985579937b2861c6243b772
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/a5
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/a5/40f12c67890ffcbf9d0782b34637f5f14c81e5
+9025a9049,9050
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/d7
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/d7/daed119fff1c73a70449b5c5d9f7eef22e5247
+9029a9055,9056
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/e6
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/.git/objects/e6/f3276f17f77d8303b78d8501a082ef13fd8a8b
+9056,9057c9083,9084
+< /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/_tmp/action_outs/stderr-4
+< /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/_tmp/action_outs/stdout-4
+---
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/_tmp/action_outs/stderr-6
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/_tmp/action_outs/stdout-6
+9065a9093,9097
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes/bazeltest1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes/bazeltest1/Hello.class
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_sourcegenfiles
+9073a9106,9108
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar/guava-18.0.jar
+9303a9339,9341
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava/jar/guava-18.0.jar
+9533a9572,9578
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jar-2.params
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jdeps
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar-2.params
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar_manifest_proto
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jdeps
+9535c9580,9588
+< /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/hello_world.txt
+---
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar/guava-18.0-ijar.jar
+10256a10310,10314
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_google_guava_guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_google_guava_guava/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_google_guava_guava/jar/BUILD.bazel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_google_guava_guava/jar/guava-18.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/external/com_google_guava_guava/jar/guava-18.0.jar
+11223a11282,11284
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/notes/004_outputdir_diff_java_hello.txt
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/notes/005_project_dir_diff_java_hello.txt
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/execroot/__main__/notes/006_java_hello_bazel_run.txt
+11232a11294
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/@com_google_guava_guava.marker
+11952a12015,12030
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava/guava
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava/guava/18.0
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava/guava/18.0/_remote.repositories
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava/guava/18.0/guava-18.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava/guava/18.0/guava-18.0-sources.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava/guava/18.0/guava-18.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/com/google/guava/guava/18.0/guava-18.0.jar.sha1
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/jar/BUILD.bazel
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/jar/guava-18.0-sources.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/jar/guava-18.0.jar
+> /private/var/tmp/_bazel_steveconover/8da80e32815985dc4a1d5e2b3f392c46/external/com_google_guava_guava/WORKSPACE

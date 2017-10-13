@@ -1,0 +1,199 @@
+find -L . > /tmp/bazel_project_find_output_3
+diff /tmp/bazel_project_find_output_2 /tmp/bazel_project_find_output_3
+
+32a33
+> ./.git/objects/06/6999ad2574cb3ac0910bfc92fe4cf0cb089c3d
+33a35,36
+> ./.git/objects/07
+> ./.git/objects/07/b3c6526cd59bb00d19b094ede7fc79835aeee6
+35a39,40
+> ./.git/objects/0d
+> ./.git/objects/0d/5896e991b9e702138283a15e083a2bf3bc3b62
+37a43,46
+> ./.git/objects/12
+> ./.git/objects/12/45b9a78d4c7234ea600271581f0ba413daf6eb
+> ./.git/objects/17
+> ./.git/objects/17/af8b548eafa487ed4bfb309c474be2eb66b09e
+43a53,56
+> ./.git/objects/84
+> ./.git/objects/84/4a7ec0052014af7de18fabc87065512ed34aeb
+> ./.git/objects/90
+> ./.git/objects/90/4ffc3940d075aee3412241d85f5765bf1b0e99
+47a61,64
+> ./.git/objects/9f
+> ./.git/objects/9f/73e1cca90ca4fd68a983ccda730eb0620d5d3f
+> ./.git/objects/a0
+> ./.git/objects/a0/174bb53299c90d252b2f51e94dbccdb66e69fd
+49a67,70
+> ./.git/objects/a2
+> ./.git/objects/a2/4523bf21c802e1d985579937b2861c6243b772
+> ./.git/objects/a5
+> ./.git/objects/a5/40f12c67890ffcbf9d0782b34637f5f14c81e5
+51a73,74
+> ./.git/objects/d7
+> ./.git/objects/d7/daed119fff1c73a70449b5c5d9f7eef22e5247
+55a79,80
+> ./.git/objects/e6
+> ./.git/objects/e6/f3276f17f77d8303b78d8501a082ef13fd8a8b
+99a125
+> ./bazel-bazel-test1/.git/objects/06/6999ad2574cb3ac0910bfc92fe4cf0cb089c3d
+100a127,128
+> ./bazel-bazel-test1/.git/objects/07
+> ./bazel-bazel-test1/.git/objects/07/b3c6526cd59bb00d19b094ede7fc79835aeee6
+102a131,132
+> ./bazel-bazel-test1/.git/objects/0d
+> ./bazel-bazel-test1/.git/objects/0d/5896e991b9e702138283a15e083a2bf3bc3b62
+104a135,138
+> ./bazel-bazel-test1/.git/objects/12
+> ./bazel-bazel-test1/.git/objects/12/45b9a78d4c7234ea600271581f0ba413daf6eb
+> ./bazel-bazel-test1/.git/objects/17
+> ./bazel-bazel-test1/.git/objects/17/af8b548eafa487ed4bfb309c474be2eb66b09e
+110a145,148
+> ./bazel-bazel-test1/.git/objects/84
+> ./bazel-bazel-test1/.git/objects/84/4a7ec0052014af7de18fabc87065512ed34aeb
+> ./bazel-bazel-test1/.git/objects/90
+> ./bazel-bazel-test1/.git/objects/90/4ffc3940d075aee3412241d85f5765bf1b0e99
+114a153,156
+> ./bazel-bazel-test1/.git/objects/9f
+> ./bazel-bazel-test1/.git/objects/9f/73e1cca90ca4fd68a983ccda730eb0620d5d3f
+> ./bazel-bazel-test1/.git/objects/a0
+> ./bazel-bazel-test1/.git/objects/a0/174bb53299c90d252b2f51e94dbccdb66e69fd
+116a159,162
+> ./bazel-bazel-test1/.git/objects/a2
+> ./bazel-bazel-test1/.git/objects/a2/4523bf21c802e1d985579937b2861c6243b772
+> ./bazel-bazel-test1/.git/objects/a5
+> ./bazel-bazel-test1/.git/objects/a5/40f12c67890ffcbf9d0782b34637f5f14c81e5
+118a165,166
+> ./bazel-bazel-test1/.git/objects/d7
+> ./bazel-bazel-test1/.git/objects/d7/daed119fff1c73a70449b5c5d9f7eef22e5247
+122a171,172
+> ./bazel-bazel-test1/.git/objects/e6
+> ./bazel-bazel-test1/.git/objects/e6/f3276f17f77d8303b78d8501a082ef13fd8a8b
+149,150c199,200
+< ./bazel-bazel-test1/bazel-out/_tmp/action_outs/stderr-4
+< ./bazel-bazel-test1/bazel-out/_tmp/action_outs/stdout-4
+---
+> ./bazel-bazel-test1/bazel-out/_tmp/action_outs/stderr-6
+> ./bazel-bazel-test1/bazel-out/_tmp/action_outs/stdout-6
+158a209,213
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes/bazeltest1
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes/bazeltest1/Hello.class
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_sourcegenfiles
+166a222,224
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar/guava-18.0.jar
+396a455,457
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava/jar/guava-18.0.jar
+626a688,694
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jar-2.params
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jdeps
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar-2.params
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar_manifest_proto
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jdeps
+628c696,704
+< ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/hello_world.txt
+---
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar
+> ./bazel-bazel-test1/bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar/guava-18.0-ijar.jar
+1349a1426,1430
+> ./bazel-bazel-test1/external/com_google_guava_guava
+> ./bazel-bazel-test1/external/com_google_guava_guava/jar
+> ./bazel-bazel-test1/external/com_google_guava_guava/jar/BUILD.bazel
+> ./bazel-bazel-test1/external/com_google_guava_guava/jar/guava-18.0-sources.jar
+> ./bazel-bazel-test1/external/com_google_guava_guava/jar/guava-18.0.jar
+2316a2398,2400
+> ./bazel-bazel-test1/notes/004_outputdir_diff_java_hello.txt
+> ./bazel-bazel-test1/notes/005_project_dir_diff_java_hello.txt
+> ./bazel-bazel-test1/notes/006_java_hello_bazel_run.txt
+2330a2415,2419
+> ./bazel-bin/_javac/hello-lib
+> ./bazel-bin/_javac/hello-lib/libhello-lib_classes
+> ./bazel-bin/_javac/hello-lib/libhello-lib_classes/bazeltest1
+> ./bazel-bin/_javac/hello-lib/libhello-lib_classes/bazeltest1/Hello.class
+> ./bazel-bin/_javac/hello-lib/libhello-lib_sourcegenfiles
+2338a2428,2430
+> ./bazel-bin/Hello.runfiles/__main__/external/com_google_guava_guava
+> ./bazel-bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar
+> ./bazel-bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar/guava-18.0.jar
+2568a2661,2663
+> ./bazel-bin/Hello.runfiles/com_google_guava_guava
+> ./bazel-bin/Hello.runfiles/com_google_guava_guava/jar
+> ./bazel-bin/Hello.runfiles/com_google_guava_guava/jar/guava-18.0.jar
+2798a2894,2900
+> ./bazel-bin/libhello-lib-hjar.jar
+> ./bazel-bin/libhello-lib-hjar.jar-2.params
+> ./bazel-bin/libhello-lib-hjar.jdeps
+> ./bazel-bin/libhello-lib.jar
+> ./bazel-bin/libhello-lib.jar-2.params
+> ./bazel-bin/libhello-lib.jar_manifest_proto
+> ./bazel-bin/libhello-lib.jdeps
+2800c2902,2910
+< ./bazel-genfiles/hello_world.txt
+---
+> ./bazel-genfiles/external
+> ./bazel-genfiles/external/com_google_guava_guava
+> ./bazel-genfiles/external/com_google_guava_guava/jar
+> ./bazel-genfiles/external/com_google_guava_guava/jar/_ijar
+> ./bazel-genfiles/external/com_google_guava_guava/jar/_ijar/jar
+> ./bazel-genfiles/external/com_google_guava_guava/jar/_ijar/jar/external
+> ./bazel-genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava
+> ./bazel-genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar
+> ./bazel-genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar/guava-18.0-ijar.jar
+2804,2805c2914,2915
+< ./bazel-out/_tmp/action_outs/stderr-4
+< ./bazel-out/_tmp/action_outs/stdout-4
+---
+> ./bazel-out/_tmp/action_outs/stderr-6
+> ./bazel-out/_tmp/action_outs/stdout-6
+2813a2924,2928
+> ./bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib
+> ./bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes
+> ./bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes/bazeltest1
+> ./bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_classes/bazeltest1/Hello.class
+> ./bazel-out/darwin_x86_64-fastbuild/bin/_javac/hello-lib/libhello-lib_sourcegenfiles
+2821a2937,2939
+> ./bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava
+> ./bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/__main__/external/com_google_guava_guava/jar/guava-18.0.jar
+3051a3170,3172
+> ./bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava
+> ./bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava/jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/Hello.runfiles/com_google_guava_guava/jar/guava-18.0.jar
+3281a3403,3409
+> ./bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jar-2.params
+> ./bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib-hjar.jdeps
+> ./bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar
+> ./bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar-2.params
+> ./bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jar_manifest_proto
+> ./bazel-out/darwin_x86_64-fastbuild/bin/libhello-lib.jdeps
+3283c3411,3419
+< ./bazel-out/darwin_x86_64-fastbuild/genfiles/hello_world.txt
+---
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar
+> ./bazel-out/darwin_x86_64-fastbuild/genfiles/external/com_google_guava_guava/jar/_ijar/jar/external/com_google_guava_guava/jar/guava-18.0-ijar.jar
+3292a3429,3431
+> ./notes/004_outputdir_diff_java_hello.txt
+> ./notes/005_project_dir_diff_java_hello.txt
+> ./notes/006_java_hello_bazel_run.txt
