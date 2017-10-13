@@ -1,0 +1,21 @@
+sconover-m01:bazel-test1 steveconover$ bazel clean
+INFO: Starting clean (this may take a while). Consider using --async if the clean takes more than several minutes.
+sconover-m01:bazel-test1 steveconover$ bazel build //:HelloScala
+INFO: Found 1 target...
+Target //:HelloScala up-to-date:
+  bazel-bin/HelloScala
+INFO: Elapsed time: 13.058s, Critical Path: 7.04s
+sconover-m01:bazel-test1 steveconover$ bazel build //:HelloScala
+INFO: Found 1 target...
+Target //:HelloScala up-to-date:
+  bazel-bin/HelloScala
+INFO: Elapsed time: 0.103s, Critical Path: 0.00s
+sconover-m01:bazel-test1 steveconover$ bazel-bin/HelloScala
+HelloScala
+sconover-m01:bazel-test1 steveconover$ bazel build //:HelloScala
+INFO: Found 1 target...
+Target //:HelloScala up-to-date:
+  bazel-bin/HelloScala
+INFO: Elapsed time: 3.104s, Critical Path: 3.00s
+sconover-m01:bazel-test1 steveconover$ bazel-bin/HelloScala
+HelloScala 2

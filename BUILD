@@ -14,14 +14,19 @@ genrule(
   cmd = "echo Hello World 2 > $@",
 )
 
-# java_library(
-#     name = "hello-lib",
-#     srcs = glob(["src/main/java/bazeltest1/*.java"]),
-#     deps = ["@com_google_guava_guava//jar"],
-# )
-
 java_binary(
-    name = "Hello",
+    name = "HelloJava",
     srcs = glob(["src/main/java/bazeltest1/*.java"]),
     deps = ["@com_google_guava_guava//jar"],
+)
+
+# useful: https://github.com/orrsella/bazel-example/blob/master/third_party/BUILD
+
+load("@io_bazel_rules_scala//scala:scala.bzl", "scala_library", "scala_binary", "scala_test")
+
+scala_binary(
+    name = "HelloScala",
+    srcs = glob(["src/main/scala/bazeltest1/*.scala"]),
+    # deps = ["@com_google_guava_guava//jar"],
+    main_class = "bazeltest1.HelloScala"
 )

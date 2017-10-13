@@ -2,8 +2,8 @@ package bazeltest1;
 
 import com.google.common.base.Strings;
 
-public class Hello {
+public class HelloJava {
   public static void main(String[] args) {
-    System.out.println(Strings.repeat("Hello2", 3));
+    System.out.println(Strings.repeat("HelloJava", 3));
   }
 }
