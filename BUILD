@@ -13,3 +13,8 @@ genrule(
   outs = ["hello_world.txt"],
   cmd = "echo Hello World 2 > $@",
 )
+
+java_binary(
+    name = "Hello",
+    srcs = glob(["src/main/java/bazeltest1/*.java"]),
+)
