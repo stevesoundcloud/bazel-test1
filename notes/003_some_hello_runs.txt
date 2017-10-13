@@ -1,0 +1,12 @@
+sconover-m01:bazel-test1 steveconover$ bazel clean
+INFO: Starting clean (this may take a while). Consider using --async if the clean takes more than several minutes.
+sconover-m01:bazel-test1 steveconover$ bazel build :hello
+INFO: Found 1 target...
+Target //:hello up-to-date:
+  bazel-genfiles/hello_world.txt
+INFO: Elapsed time: 5.650s, Critical Path: 0.05s
+sconover-m01:bazel-test1 steveconover$ bazel build :hello
+INFO: Found 1 target...
+Target //:hello up-to-date:
+  bazel-genfiles/hello_world.txt
+INFO: Elapsed time: 0.197s, Critical Path: 0.00s
